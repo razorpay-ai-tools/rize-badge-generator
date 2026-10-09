@@ -1,0 +1,242 @@
+[
+  {
+    "id": "d2c-square-1",
+    "community": "d2c",
+    "format": "square",
+    "theme": "light",
+    "cardTone": "light",
+    "box": {
+      "x": 0.4241,
+      "y": 0.4796,
+      "w": 0.15,
+      "h": 0.0833
+    },
+    "w": 2160,
+    "h": 2160,
+    "file": "assets/d2c-square-1.png"
+  },
+  {
+    "id": "d2c-square-2",
+    "community": "d2c",
+    "format": "square",
+    "theme": "dark",
+    "cardTone": "dark",
+    "box": {
+      "x": 0.42,
+      "y": 0.44,
+      "w": 0.15,
+      "h": 0.125
+    },
+    "w": 2160,
+    "h": 2160,
+    "file": "assets/d2c-square-2.png"
+  },
+  {
+    "id": "d2c-square-3",
+    "community": "d2c",
+    "format": "square",
+    "theme": "dark",
+    "cardTone": "light",
+    "box": {
+      "x": 0.4407,
+      "y": 0.4444,
+      "w": 0.1167,
+      "h": 0.0648
+    },
+    "w": 2160,
+    "h": 2160,
+    "file": "assets/d2c-square-3.png"
+  },
+  {
+    "id": "tech-square-1",
+    "community": "tech",
+    "format": "square",
+    "theme": "dark",
+    "cardTone": "dark",
+    "box": {
+      "x": 0.435,
+      "y": 0.435,
+      "w": 0.135,
+      "h": 0.1
+    },
+    "w": 2160,
+    "h": 2160,
+    "file": "assets/tech-square-1.png"
+  },
+  {
+    "id": "tech-square-2",
+    "community": "tech",
+    "format": "square",
+    "theme": "light",
+    "cardTone": "light",
+    "box": {
+      "x": 0.4444,
+      "y": 0.4519,
+      "w": 0.1278,
+      "h": 0.0907
+    },
+    "w": 2160,
+    "h": 2160,
+    "file": "assets/tech-square-2.png"
+  },
+  {
+    "id": "tech-square-3",
+    "community": "tech",
+    "format": "square",
+    "theme": "dark",
+    "cardTone": "light",
+    "box": {
+      "x": 0.4537,
+      "y": 0.4741,
+      "w": 0.0907,
+      "h": 0.0574
+    },
+    "w": 2160,
+    "h": 2160,
+    "file": "assets/tech-square-3.png"
+  },
+  {
+    "id": "xport-square-1",
+    "community": "xport",
+    "format": "square",
+    "theme": "light",
+    "cardTone": "light",
+    "box": {
+      "x": 0.4241,
+      "y": 0.4259,
+      "w": 0.1741,
+      "h": 0.1
+    },
+    "w": 2160,
+    "h": 2160,
+    "file": "assets/xport-square-1.png"
+  },
+  {
+    "id": "xport-square-2",
+    "community": "xport",
+    "format": "square",
+    "theme": "dark",
+    "cardTone": "dark",
+    "box": {
+      "x": 0.395,
+      "y": 0.41,
+      "w": 0.21,
+      "h": 0.125
+    },
+    "w": 2160,
+    "h": 2160,
+    "file": "assets/xport-square-2.png"
+  },
+  {
+    "id": "xport-square-3",
+    "community": "xport",
+    "format": "square",
+    "theme": "dark",
+    "cardTone": "light",
+    "box": {
+      "x": 0.3963,
+      "y": 0.45,
+      "w": 0.1722,
+      "h": 0.0611
+    },
+    "w": 2160,
+    "h": 2160,
+    "file": "assets/xport-square-3.png"
+  },
+  {
+    "id": "d2c-story-1",
+    "community": "d2c",
+    "format": "story",
+    "theme": "dark",
+    "cardTone": "light",
+    "box": {
+      "x": 0.3417,
+      "y": 0.3348,
+      "w": 0.3389,
+      "h": 0.1615
+    },
+    "w": 2160,
+    "h": 2700,
+    "file": "assets/d2c-story-1.png"
+  },
+  {
+    "id": "d2c-story-2",
+    "community": "d2c",
+    "format": "story",
+    "theme": "dark",
+    "cardTone": "light",
+    "box": {
+      "x": 0.3417,
+      "y": 0.3348,
+      "w": 0.3389,
+      "h": 0.1615
+    },
+    "w": 2160,
+    "h": 2700,
+    "file": "assets/d2c-story-2.png"
+  },
+  {
+    "id": "tech-story-1",
+    "community": "tech",
+    "format": "story",
+    "theme": "dark",
+    "cardTone": "light",
+    "box": {
+      "x": 0.3417,
+      "y": 0.3348,
+      "w": 0.3389,
+      "h": 0.1615
+    },
+    "w": 2160,
+    "h": 2700,
+    "file": "assets/tech-story-1.png"
+  },
+  {
+    "id": "tech-story-2",
+    "community": "tech",
+    "format": "story",
+    "theme": "dark",
+    "cardTone": "light",
+    "box": {
+      "x": 0.3417,
+      "y": 0.3348,
+      "w": 0.3389,
+      "h": 0.1615
+    },
+    "w": 2160,
+    "h": 2700,
+    "file": "assets/tech-story-2.png"
+  },
+  {
+    "id": "xport-story-1",
+    "community": "xport",
+    "format": "story",
+    "theme": "light",
+    "cardTone": "light",
+    "box": {
+      "x": 0.3417,
+      "y": 0.3348,
+      "w": 0.3389,
+      "h": 0.1615
+    },
+    "w": 2160,
+    "h": 2700,
+    "file": "assets/xport-story-1.png"
+  },
+  {
+    "id": "xport-story-2",
+    "community": "xport",
+    "format": "story",
+    "theme": "dark",
+    "cardTone": "light",
+    "box": {
+      "x": 0.3417,
+      "y": 0.3348,
+      "w": 0.3389,
+      "h": 0.1615
+    },
+    "w": 2160,
+    "h": 2700,
+    "file": "assets/xport-story-2.png"
+  }
+]
