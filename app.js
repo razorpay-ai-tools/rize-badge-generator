@@ -6,7 +6,7 @@ const COMMUNITIES = {
   d2c:   { name: "Rize D2C+" },
   xport: { name: "Rize Xport+" },
 };
-const FORMAT_LABEL = { square: "Square (1:1)", story: "Story (4:5)" };
+const FORMAT_LABEL = { square: "Badge (1:1)", story: "Plaque (4:5)" };
 
 let MANIFEST = [];
 let community = null;         // chosen community key
@@ -75,9 +75,9 @@ function renderGrid() {
     const tile = document.createElement("div");
     tile.className = "tile";
     tile.innerHTML = `
-      <img loading="lazy" src="assets/thumbs/${d.id}.jpg" alt="${d.format} badge" />
+      <img loading="lazy" src="assets/thumbs/${d.id}.jpg" alt="${d.format === "square" ? "badge" : "plaque"}" />
       <div class="meta">
-        <span class="tag">${d.format === "square" ? "Square" : "Story"}</span>
+        <span class="tag">${d.format === "square" ? "Badge" : "Plaque"}</span>
         <span class="tag">${d.theme === "light" ? "Light" : "Dark"}</span>
       </div>`;
     tile.addEventListener("click", () => openEditor(d));
@@ -346,7 +346,7 @@ downloadBtn.addEventListener("click", () => {
   canvas.toBlob((blob) => {
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = `rize-${current.community}-${current.format}-badge.png`;
+    a.download = `rize-${current.community}-${current.format === "square" ? "badge" : "plaque"}.png`;
     a.click();
     URL.revokeObjectURL(a.href);
     render();                    // restore the on-screen guide
